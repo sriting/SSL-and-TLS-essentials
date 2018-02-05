@@ -6,7 +6,7 @@ SSL的设计者是设计SSL是为了保证电子商务和其他网络事务的�
 
 #### SSL和TLS的历史
 
-![SSL和TLS历史发展](img\SSL和TLS历史发展.PNG)
+![SSL和TLS历史发展](img/SSL和TLS历史发展.PNG)
 
 其实在网络设计之初，Netscape （美国网景通信公司）就已经考虑到了安全问题，并设计了SSL的1.0和2.0。之后微软为了解决SSL2.0的很多问题，推出了Private Communication Technology (PCT)。Netscape也根据PCT的新理念，推出了SSL3.0来解决之前版本存在的问题。虽然SSL的三个版本名义上属于Netscape公司的，但Netscape鼓励业界参与SSL的发展。因此在1996年五月，SSL的发展已经开始由国际标准组织--互联网工程任务组(IETF)负责。IETF还负责TCP、IP等协议的发展。
 
