@@ -32,7 +32,7 @@ A-完全安全，B-可用于多种应用，C-可定制服务，D-对应用层透
 
 如图，网络结构的最底层是应用IP协议，这个协议是负责消息在网络中传输时的路由选择，把消息从起始点发送到目的地。TCP协议建立在IP的服务之上，是用于确保通信是否可靠。最顶层是HTTP协议，HTTP可以理解浏览器和服务器交流的内容细节。而SSL作为一个新的层，加在了HTTP和TCP中间。SSL对TCP的服务要求基本上和HTTP对TCP的要求没有什么变化，所以对于TCP来说，SSL就是另外一种应用。而SSL提供给TCP的服务也没有什么变化。这也是这种独立安全层方法的好处：**SSL不仅可以支持HTTP，也可以支持其他网络应用**，比如Net News Transfer Protocol (NNTP)和File Transfer Protocol (FTP)等。
 
-![SSL结构](img\SSL结构.PNG)
+![SSL结构](img/SSL结构.PNG)
 
 ![SSL可提供服务给其他网络应用](img/SSL可提供服务给其他网络应用.PNG)
 
